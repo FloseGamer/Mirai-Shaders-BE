@@ -11,14 +11,14 @@ this is disabled
 //#define ENABLE_DYNAMIC_LIGHT_ANGLE
 */
 
-//#define ENABLE_DYNAMIC_LIGHT_ANGLE
-#define ENABLE_VOLUMETRIC_CLOUD
-#define ENABLE_CIRRUS_CLOUD
+#define ENABLE_DYNAMIC_LIGHT_ANGLE
+//#define ENABLE_VOLUMETRIC_CLOUD
+//#define ENABLE_CIRRUS_CLOUD
 
-#define ENABLE_WATERBUMP
+//#define ENABLE_WATERBUMP
 #define ENABLE_UNDERWATER_CAUSTIC
 #define ENABLE_SKY_REFLECTION
-#define ENABLE_FAKE_CLOUD_REFLECTION
+//#define ENABLE_FAKE_CLOUD_REFLECTION
 #define ENABLE_SPECULAR_REFLECTION
 
 //////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ this is disabled
 /////////////// DONT DISABLE ANYTHING !! /////////////////////
 
 // adjust how fast time passes
-#define DYNAMIC_LIGHT_ANGLE_SPEED 0.05
+#define DYNAMIC_LIGHT_ANGLE_SPEED 0.0010
 
 // range 0 - 360 (degrees) and will affected when disabling DYNAMIC_LIGHT_ANGLE
 // 0 - 180 is full daytime and 180 - 360 is full night time
